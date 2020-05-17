@@ -6,23 +6,13 @@ respawnOnStart = 1;
 OnLoadName = "7th Platoon, Irish Guards";
 loadScreen = "image.jpg";
 
-disableChannels[] = {
-	{0,	false, true},
-	{1, false, true},
-	{2, false, true},
-	{3, false, true},
-	{4, false, true},
-	{5, false, true},
-	{6, false, true}
-};
-
 class CfgDiscordRichPresence {
     applicationID="711684292983521321";             // Provided by discord
     defaultDetails="Zeus operation on Altis";            // Upper text
     defaultState="Messing around";              // Lower text   
     defaultLargeImageKey="loadscreen";      // Large image
-    defaultLargeImageText="7th Platoon, Irish Guards";     // Large image hover text
+    defaultLargeImageText="Irish Guards base";     // Large image hover text
     defaultSmallImageKey="loadscreen";      // Small image
-    defaultSmallImageText="7th Platoon, Irish Guards";     // Small image hover text
+    defaultSmallImageText="Irish Guards";     // Small image hover text
     useTimeElapsed=1;             // Show time elapsed since the player connected (1 - true, 0 - false)
 };
