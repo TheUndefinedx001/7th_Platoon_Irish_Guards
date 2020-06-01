@@ -4,8 +4,8 @@ class DifficultyPresets
 	{
 		class Options
 		{
-			groupIndicators=1;
-			friendlyTags=1;
+			groupIndicators=0;
+			friendlyTags=0;
 			enemyTags=0;
 			detectedMines=1;
 			commands=0;
