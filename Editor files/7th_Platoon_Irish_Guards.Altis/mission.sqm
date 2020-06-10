@@ -215,7 +215,6 @@ class AddonsMetaData
 randomSeed=16586744;
 class ScenarioData
 {
-	author="[Sgt.] Leecher";
 	disabledAI=1;
 	respawn=2;
 	respawnDelay=20;
@@ -457,7 +456,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=114;
+									items=118;
 									class Item0
 									{
 										class data
@@ -2054,6 +2053,62 @@ class CustomAttributes
 											value="ace_zeus_cancreatezeus";
 										};
 									};
+									class Item114
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_nightvision_noisescaling";
+										};
+									};
+									class Item115
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_nightvision_aimdownsightsblur";
+										};
+									};
+									class Item116
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_nightvision_disablenvgswithsights";
+										};
+									};
+									class Item117
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_nightvision_shuttereffects";
+										};
+									};
 								};
 							};
 						};
@@ -2070,7 +2125,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=114;
+									items=118;
 									class Item0
 									{
 										class data
@@ -2096,7 +2151,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.3066895;
+														value=0.30669001;
 													};
 												};
 												class Item1
@@ -2141,7 +2196,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.52190959;
+														value=0.52191001;
 													};
 												};
 												class Item1
@@ -3266,7 +3321,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.6984669;
+														value=0.69846702;
 													};
 												};
 												class Item1
@@ -6731,7 +6786,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.49715948;
+														value=0.497159;
 													};
 												};
 												class Item1
@@ -6866,7 +6921,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.15280661;
+														value=0.152807;
 													};
 												};
 												class Item1
@@ -6956,7 +7011,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=2.8086276;
+														value=2.80863;
 													};
 												};
 												class Item1
@@ -7046,7 +7101,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.71022636;
+														value=0.710226;
 													};
 												};
 												class Item1
@@ -7091,7 +7146,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.82214147;
+														value=0.499311;
 													};
 												};
 												class Item1
@@ -7136,7 +7191,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.42398396;
+														value=0;
 													};
 												};
 												class Item1
@@ -7179,6 +7234,186 @@ class CustomAttributes
 															type[]=
 															{
 																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item114
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item115
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0.52083302;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item116
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item117
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
 															};
 														};
 														value=0;
@@ -7248,7 +7483,6 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="7th Platoon, Irish Guards";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
